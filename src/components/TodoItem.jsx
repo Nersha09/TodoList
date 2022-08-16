@@ -16,7 +16,6 @@ const TodoItem = ({text,completed, id}) => {
                 sx={{
                     backgroundColor: '#cad3db',
                     width: 250,
-                    // height: 200,
                     padding: '10px',
                 }}>
                 <CardContent>
