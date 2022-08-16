@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+}
+
+/* input:checked + CardContent{
+    text-decoration: line-through;
+} */
+
+CardContent + Checkbox  {
+    text-decoration: line-through;
+}
+
+.itemText {
+    text-align: start;
+    font: 1.2em 'Fira Sans', sans-serif;
+}
+div + Checkbox:checked {
+    text-decoration: line-through;
+}
